@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Grouptest">
+    <classes>
+      <class name="myTestNG.DAtaDrivendemo"/>
+      <class name="myTestNG.myTestNG.DependsOn"/>
+      <class name="myTestNG.VerifyGooglePAge"/>
+      <class name="myTestNG.myTestNG.AlwaysRun"/>
+      <class name="myTestNG.AnnotationsDemo"/>
+    </classes>
+  </test> <!-- Grouptest -->
+</suite> <!-- Suite -->

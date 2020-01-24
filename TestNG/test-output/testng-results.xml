@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70405" started-at="2020-01-08T10:07:43Z" finished-at="2020-01-08T10:08:53Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="25464" started-at="2020-01-08T10:07:43Z" finished-at="2020-01-08T10:08:09Z">
+      <class name="parllelDemo.Parllel2">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parllelDemo.Parllel2@56f4468b]" name="setup" is-config="true" duration-ms="6839" started-at="2020-01-08T10:07:43Z" finished-at="2020-01-08T10:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:parllelDemo.Parllel2@56f4468b]" name="login" duration-ms="18324" started-at="2020-01-08T10:07:50Z" finished-at="2020-01-08T10:08:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:parllelDemo.Parllel2@56f4468b]" name="logout" is-config="true" duration-ms="265" started-at="2020-01-08T10:08:08Z" finished-at="2020-01-08T10:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- parllelDemo.Parllel2 -->
+    </test> <!-- chromeTest -->
+    <test name="FirefoxTest" duration-ms="44904" started-at="2020-01-08T10:08:09Z" finished-at="2020-01-08T10:08:53Z">
+      <class name="parllelDemo.Parllel2">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:parllelDemo.Parllel2@6767c1fc]" name="setup" is-config="true" duration-ms="3926" started-at="2020-01-08T10:08:09Z" finished-at="2020-01-08T10:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:parllelDemo.Parllel2@6767c1fc]" name="login" duration-ms="39409" started-at="2020-01-08T10:08:12Z" finished-at="2020-01-08T10:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:parllelDemo.Parllel2@6767c1fc]" name="logout" is-config="true" duration-ms="1560" started-at="2020-01-08T10:08:52Z" finished-at="2020-01-08T10:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- parllelDemo.Parllel2 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
